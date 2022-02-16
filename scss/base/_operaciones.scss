@@ -1,0 +1,7 @@
+$ancho-principal:100;
+
+/*Operaciones*/
+.h3{
+   width: $ancho-principal - 50px ;
+    /*width:($ancho-principal/2) + 200px ;*/
+}

@@ -1,0 +1,43 @@
+.header{
+    background-color: green;
+    display: flex;
+    width: 100%;
+
+    .titulo{
+        font-size: 20px;
+        text-align:start;
+        color: coral;
+        width: 100%;
+       
+    }
+.menu {
+    text-decoration: none;
+     color: aqua;
+    padding: 10px;   
+     text-align: end;
+     
+     
+  ul{
+  
+    
+      display: flex;
+   
+    
+  li{
+  
+      border-radius: 5px solid black;
+      list-style: none;
+      padding: 10px;  
+     
+  
+
+  a{
+ color: aqua;
+
+      text-decoration: none;
+  }
+}
+}
+    }
+
+}

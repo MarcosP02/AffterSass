@@ -1,0 +1,29 @@
+/* mixin */
+/*
+@mixin .header{
+width: 100px;
+background-color: aqua;
+border: 3px solid green;
+}
+
+.header{
+    @include .header;
+}*/
+
+
+@mixin animaciones($transformaciones){
+transform: $transformaciones;
+}
+
+.main{
+    @include animaciones(scale(50%))
+}
+
+@mixin colores ($colores){
+    color: $colores
+}
+
+.h3{
+    @include colores(color (red))
+}
+

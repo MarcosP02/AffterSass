@@ -1,0 +1,25 @@
+/*mapas*/
+$standard:(
+    /*key - valor*/
+    color-standard:red, 
+    bg-standard:green,
+border-standard:5px solid black,
+font-standard:30px,
+
+);
+
+
+$premium: (
+    /*key -valor */
+    color-premium: blue,
+    bg-premium: gold,
+);
+
+/*standar*/
+.standard{
+    background-color: map-get($map: $standard, $key: bg-standard );
+}
+/*premium*/
+.premium{
+    color: map-get($map: $premium, $key: color-premium )
+}

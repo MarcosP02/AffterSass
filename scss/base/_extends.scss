@@ -1,0 +1,45 @@
+/*Extenciones*/
+
+/*agrupando propiedades*/
+
+%botones1{
+    
+    border-radius:5px solid white ;
+    box-shadow: 10px solid green;
+
+} 
+
+
+%botones2{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid black;
+}
+/*botones*/
+%botones3{
+    color: black;
+    background-color: wheat;
+    
+}
+/*botones*/
+%botones4{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h2{
+    @extend %botones2;
+    @extend %botones3;
+}
+
+
+.main{
+    @extend %botones1;
+    @extend %botones2;
+    @extend %botones4;
+}
+
+footer{
+    @extend %botones3;
+  
+}
